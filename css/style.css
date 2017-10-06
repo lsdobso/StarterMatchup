@@ -1,21 +1,65 @@
+/* font imports */
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/* global styles */
+body {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color: #000;
+}
 /* classes here */
 .navbar {
-
+	column-count: 2;
+	column-width: 40%;
+	column-gap: 20%;
+	height: auto;
 }
 .callout {
-
+	clear: both;
+	background-color: #C6C6C6;
+	text-align: center;
+	height: 30px;
+	padding-top: 10px;
 }
 .black {
+	background-color: #000;
+}
+.emphasize {
+	font-family: Oswald;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.strikethru {
+
+}
+.underline {
 
 }
 /* header styles */
 h1 {
-
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 24px;
+	color: #FFFF00;
+	padding: 15px 40px;
 }
 h2 {
-
+	font-family: Merriweather;
+	font-style: italic;
 }
 h3 {
 
+}
+/* other styles */
+a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 10px;
+	height: auto;
+}
+hr {
+	clear: both;
+	position: bottom;
+	border: 2px solid #FFFF00;
 }
